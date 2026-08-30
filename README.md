@@ -1,26 +1,80 @@
-# Data Visualization and Storytelling
+# Superstore Sales & Profit Analysis
 
-## Task 2
+## Project Overview
 
-### Objective
-Create meaningful visualizations that communicate business insights through data storytelling.
+This project analyzes Superstore sales data using Microsoft Power BI to identify sales performance, profitability, regional trends, customer segment performance, and product-level insights.
 
-### Tool
-- Power BI
+An interactive dashboard was created to present the analysis in a clear and business-friendly format.
 
-### Dataset
-- Superstore Sales Dataset
+## Dashboard Features
 
-### Key Analysis
-- Sales Performance
-- Profitability
-- Category Analysis
-- Regional Performance
-- Customer Segment Analysis
-- Monthly Sales Trends
+- Total Sales KPI
+- Total Profit KPI
+- Total Orders KPI
+- Total Customers KPI
+- Sales by Category
+- Sales by Region
+- Sales by Segment
+- Monthly Sales Trend
+- Profit by Region
+- Sales by Sub-Category
+- Profit by Sub-Category
+- Region filter
+- Order Date filter
+- Category filter
 
-### Deliverables
-- Interactive Power BI Dashboard
-- Dashboard Screenshots
-- Visual Report
-- Business Insights
+## Tools & Technologies
+
+- Microsoft Power BI
+- Power Query
+- Microsoft Excel
+- CSV
+- Data Visualization
+- Data Analysis
+- Business Intelligence
+
+## Project Structure
+
+```text
+Data-Visualization-and-Storytelling/
+│
+├── dashboard/
+├── data/
+│   └── raw/
+│       └── Sample - Superstore.csv
+│
+├── report/
+│   └── sales_insights.md
+│
+├── screenshots/
+│
+├── Superstore_Sales_Dashboard.pbix
+├── .gitignore
+└── README.md
+Key Analysis Areas
+Sales Performance
+
+Analysis of overall sales across categories, regions, segments, and sub-categories.
+
+Profitability
+
+Analysis of profit performance across regions and product sub-categories.
+
+Customer Segments
+
+Comparison of sales across Consumer, Corporate, and Home Office segments.
+
+Time-Based Analysis
+
+Analysis of sales trends over the order period.
+
+Interactive Filtering
+
+Users can explore the dashboard using Region, Order Date, and Category filters.
+
+Conclusion
+
+The project demonstrates how Power BI can transform raw sales data into an interactive business intelligence dashboard. The visualizations and filters make it easier to identify trends, compare performance, and communicate business insights.
+
+Author
+Sathish R
